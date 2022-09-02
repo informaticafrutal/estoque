@@ -1,0 +1,55 @@
+body {
+    background-color:#D9D9D9;
+    padding:30px;
+}
+
+.fundo {
+    background-color: white;
+    height: 90vh;
+    border-radius:5px;
+    padding:20px;
+    overflow:auto;
+
+}
+
+.fundo-menu {
+    height:60px;
+    background-color:#D9D9D9;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.botao-menu{
+    width:50px;
+    height:30px;
+    background-color:rgb(37, 8, 117);
+    color:#FFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin:5px;
+}
+
+.botao-menu:hover {
+    transform:scale(1.1);
+    opacity:0.9;
+}
+
+.botao-menu img {
+    width:20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mensagem-bem-vindo {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
