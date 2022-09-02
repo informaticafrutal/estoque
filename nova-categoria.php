@@ -67,7 +67,7 @@ require_once "./config.php";
                                     <td>
                                         <a href="./categorias/editar.php?id=<?php echo $categoria['id'] ?>" class="btn btn-warning">Editar</a>
                                     </td>
-                                </tr>    b
+                                </tr> 
                             <?php endforeach; ?>
                         </tbody>
                     </table>

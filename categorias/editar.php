@@ -39,14 +39,15 @@
 <body>
     <div class="container fundo">
         <?php require_once "../menu.php"; ?>
-
+        
         <div class="fundo-conteudo">
             <div class="container">
                 <fieldset>
                     <legend>Editar categoria</legend>
-                    <form method="POST" action="">
+                    <form method="POST" action="salvar.php">
                         <label for="">Nome da Categoria</label>
-                        <input type="text" name="nome" class="form-control" /><br/>
+                        <input type="text" name="nome" class="form-control" value="<?php echo $categoria['nome'] ?>" /><br/>
+                        <input type="hidden" name="id" value="<?php echo $id ?>">
                         <button class="btn btn-success">Salvar</button>
                     </form>
                 </fieldset>
